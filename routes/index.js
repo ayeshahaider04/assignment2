@@ -16,19 +16,19 @@ router.get('/home', function(req, res, next) {
 });
 /* GET About Me page. */
 router.get('/about', function(req, res, next) {
-  res.render('index', { 
+  res.render('about', { 
     title: 'About Me'
   });
 });
 /* GET Projects page. */
 router.get('/projects', function(req, res, next) {
-  res.render('index', { 
+  res.render('projects', { 
     title: 'Projects'
   });
 });
 /* GET Contact Me. */
 router.get('/contact', function(req, res, next) {
-  res.render('index', { 
+  res.render('contact', { 
     title: 'Contact Me'
   });
 });
